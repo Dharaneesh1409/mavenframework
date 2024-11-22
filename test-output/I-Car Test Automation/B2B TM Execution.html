@@ -1,0 +1,403 @@
+<html>
+<head>
+<title>TestNG:  B2B TM Execution</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>B2B TM Execution</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 04 17:59:08 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>1193 seconds (1193916 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='B2Btestscripts.B2B_TrainingManger.ICar_B2B_TC117()'><b>ICar_B2B_TC117</b><br>Test class: B2Btestscripts.B2B_TrainingManger<br>Test method: Ability for a TM to request reactive and bundle events (request)<br>Parameters: chrome<br/>
+<a href="#Output-791066494" onClick='toggleBox("Output-791066494", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-791066494" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-791066494">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:09 214 - TestCaseID:: ICar_B2B_TC117</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:11 462 - <b>2</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:24 471 - Page URL:: data:,</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:24 471 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Ability for a Training Manager to request reactive and bundle events (request) end to -end to</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:30 392 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:30 492 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC117_326966455445200.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:30 921 - Page URL:: https://www.icarstage.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:30 921 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:30 989 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:31 071 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:49 366 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 15 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:49 366 - <b>15</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;2. Navigate to 'Login Page'</div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Login' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC117_326985328554300.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:49 575 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> id: username]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:49 655 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> id: username]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:49 922 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> id: password]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 17:59:50 140 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> id: btn-login]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:03 292 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 13 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:03 292 - <b>13</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:25 150 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:25 151 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:25 242 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[@value='Launch My Learning']]</small> </font> </div><br/>
+<div class="test-message">&emsp;3. Enter the user credentials as : clingren1054</div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'User Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC117_327021199611100.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:25 608 - Page URL:: https://www.icarstage.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:25 609 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:36 092 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:36 092 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:50 206 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 14 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:50 207 - <b>14</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:52 306 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //input[@class='slds-input searchInputCls']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:52 621 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[@title='Remove selected option']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:54 302 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=training%20and%20certification:%20steel%20gma%20welding#gsc.tab=0&gsc.q=training%20and%20certification:%20steel%20gma%20welding&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:00:54 302 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:04 782 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:04 782 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:04 829 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //table//tbody//td[1]//div//a]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:06 944 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //table//tbody//td[1]//div//a]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:13 848 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //h2[contains(text(),'Request')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:13 916 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //h2[contains(text(),'Request')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:13 989 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //h2[contains(text(),'Request')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:14 130 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[@name='shop']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:16 222 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[@name='shop']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:16 557 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //span[@title='Crash Champions - 110 - MESA']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Crash Champions - 110 - MESA is selected in EventLocation drop down</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:16 948 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[@name='eventType']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:19 057 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[@name='eventType']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:19 141 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //span[@title='Next Month']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Next Month is selected in period drop down</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:23 331 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//input[@data-id='contactInfo'])[2]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:23 578 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[@name='paymentType']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:23 648 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[@name='paymentType']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:27 901 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[@name='paymentType']//span//following::span[@class='slds-truncate']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Credit card payment option already exist in payment selection drop down</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:41 054 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a[text()='Equip']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:41 125 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a[text()='Equip']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:51 351 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a[contains(@name,'Release_and_Waiver')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:51 426 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a[contains(@name,'Release_and_Waiver')]]</small> </font> </div><br/>
+<div class="test-message">&emsp;Sucessfully verified link&emsp;<a href=".\ScreenShot\ICar_B2B_TC117_327110300976800.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:56 675 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a[contains(@name,'Event_Policy')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:01:56 748 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a[contains(@name,'Event_Policy')]]</small> </font> </div><br/>
+<div class="test-message">&emsp;Sucessfully verified link&emsp;<a href=".\ScreenShot\ICar_B2B_TC117_327117738593000.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:11 927 - Unable to find a element after 6 sec ==> Proxy element for: AjaxElementLocator 'By.cssSelector: a[name*='_COVID_19_Policies']'</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:25 026 - Unable to find a element after 9 sec ==> Proxy element for: AjaxElementLocator 'By.cssSelector: a[name*='_COVID_19_Policies']'</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:27 189 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//span[@class='slds-checkbox_faux'])[2]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:27 623 - Page URL:: https://www.icarstage.com/product/training-and-certification-steel-gma-welding/01tdi000007teldia2</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:27 624 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:38 018 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:38 018 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:40 136 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//span[@class='slds-checkbox_faux'])[3]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:40 258 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//span[@class='slds-checkbox_faux'])[3]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:40 409 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //div[@class='slds-align_absolute-center slds-p-top_small']//button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:40 520 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //div[@class='slds-align_absolute-center slds-p-top_small']//button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:50 636 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:50 636 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:50 927 - Page URL:: https://www.icarstage.com/product/training-and-certification-steel-gma-welding/01tdi000007teldia2</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:50 928 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:02:53 196 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[text()='Add Selected Students']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:03:02 656 - Unable to find a element after 6 sec ==> Proxy element for: AjaxElementLocator 'By.xpath: //button[text()='Ok']'</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:03:16 043 - Unable to find a element after 10 sec ==> Proxy element for: AjaxElementLocator 'By.xpath: //button[text()='Ok']'</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:03:16 116 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[text()='Make Request']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:03:18 207 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[text()='Make Request']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:03:48 490 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 30 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:03:48 491 - <b>30</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully Requested the Training and Certification: Steel GMA Welding course&emsp;<a href=".\ScreenShot\ICar_B2B_TC117_327224448378500.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Navigate to 'Hands on, Welding assessment and private events' page</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:03:49 014 - Page URL:: https://my.icarstage.com/s/manage-in-shop-events</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:03:49 014 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:03:49 134 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //p[text()='Launch My Learning']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:03:49 333 - Page URL:: https://my.icarstage.com/s/manage-in-shop-events</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:03:49 333 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:04:14 680 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 25 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:04:14 680 - <b>25</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:19 023 - Unable to find an element after 29 sec ==> Proxy element for: AjaxElementLocator 'By.xpath: //a[text()='Manage In-Shop Events']'</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:19 103 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a[text()='In-Shop Events']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:21 282 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a[text()='In-Shop Events']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:47 382 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 20 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:47 382 - <b>20</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:48 591 - Page URL:: https://my.icarstage.com/s/manage-in-shop-events</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:48 591 - <b>1</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:48 650 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //select[@class='slds-select']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Hands on, Welding assessment and private events' page&emsp;<a href=".\ScreenShot\ICar_B2B_TC117_327404607343400.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Verify the request should be in 'In Scheduling'</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:50 960 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //select[@class='slds-select']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:51 007 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //select[@class='slds-select']]</small> </font> </div><br/>
+<div class="test-message">&emsp;In Schedulingvalue is selected in Request status drop down</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:54 400 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 3 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:54 400 - <b>3</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:54 446 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //select[@class='slds-select']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:54 489 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //select[@class='slds-select']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Crash Champions - 110 - MESAvalue is selected in Location drop down</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:57 754 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 3 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:57 754 - <b>3</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:57 798 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //select[@class='slds-select']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:06:57 839 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //select[@class='slds-select']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Weldingvalue is selected in Type drop down</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:08 361 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:08 362 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully displayed table results as per the given Request status:In Scheduling Location:Crash Champions - 110 - MESA Type:null&emsp;<a href=".\ScreenShot\ICar_B2B_TC117_327424432126300.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:11 802 - Page URL:: https://i-car--staging.sandbox.my.salesforce.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:11 803 - <b>1</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Login' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC117_327427759782100.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Login page is launched.</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:12 065 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> id: username]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:12 134 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> id: username]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:12 437 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> id: password]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:12 637 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> id: Login]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:40 417 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 13 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:40 417 - <b>13</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:58 652 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 6 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:58 652 - <b>6</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:58 731 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> css selector: button[class*='search-button']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Navigate to 'SalesForce Page'</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:59 064 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/contact/0038w000020nr9jqaa/related/student_platinums__r/view?ws=%2flightning%2fr%2fcontact%2f0038w000020nr9jqaa%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:07:59 065 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:04 543 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/contact/0038w000020nr9jqaa/related/student_platinums__r/view?ws=%2flightning%2fr%2fcontact%2f0038w000020nr9jqaa%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:04 543 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-message">&emsp;Close the tab</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:26 394 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 5 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:26 394 - <b>5</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:26 761 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/o/account/list?filtername=accounts</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:26 761 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:26 882 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //div[contains(@class,'appLauncher ')]//button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:26 941 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //div[contains(@class,'appLauncher ')]//button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:28 922 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //input[@placeholder='Search apps and items...']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:28 983 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //input[@placeholder='Search apps and items...']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:32 348 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //lightning-formatted-rich-text/span/p/b[text()='Session Scheduling Console']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:35 391 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //lightning-formatted-rich-text/span/p/b[text()='Session Scheduling Console']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:36 036 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/o/account/list?filtername=accounts</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:36 036 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:36 314 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:08:36 314 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:00 443 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 24 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:00 443 - <b>24</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:00 634 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:00 634 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:21 057 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 20 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:21 057 - <b>20</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;Total no of frames 1</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:21 222 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //span[@class='slds-checkbox_faux']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:23 367 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //span[@class='slds-checkbox_faux']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:25 471 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //div[text()='Queued']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:28 570 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//input[@type='text'])[4]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:28 634 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//input[@type='text'])[4]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:28 716 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//input[@type='text'])[4]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:31 839 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//input[@type='text'])[4]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:32 323 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:32 323 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:32 548 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:32 548 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:44 629 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 12 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:09:44 629 - <b>12</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:05 002 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 20 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:05 002 - <b>20</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;Total no of frames 1</div><br/>
+<div class="test-message">&emsp;Job numberJOB-97994</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:19 616 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 12 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:19 616 - <b>12</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:19 695 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //div[@class='slds-scrollable_y slds-p-horizontal_small slds-grow ng-scope']//table//tbody//tr//td[@class='col-action']//button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:19 788 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//li[@class='slds-dropdown__item']//a//span[@class='slds-truncate'])[2]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:30 488 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:30 488 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:30 539 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> css selector: div[class*='schedule-box_container']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:45 292 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:45 293 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:45 523 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> css selector: div[class*='schedule-box_container']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Start time entered for sheduling the session is : 09:30 AM&emsp;<a href=".\ScreenShot\ICar_B2B_TC117_327652927455200.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:57 355 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> css selector: div[label='Session Owner'] button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:10:58 365 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //div[@ref='undefined']//ul//li//span/div]</small> </font> </div><br/>
+<div class="test-message">&emsp;Session owner name is entered </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:11:03 605 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[text()='Save & Allocate Instructor(s)'] | //button[text()=' Save & Allocate Instructor(s) ']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:11:11 083 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 7 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:11:11 084 - <b>7</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:11:11 342 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:11:11 343 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:11:31 838 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 20 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:11:31 838 - <b>20</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:25 835 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[@class='slds-button slds-button_icon button-icon_blue slds-button_icon-border-filled slds-button_icon-x-small'] | //button[@class='slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small button-icon_blue']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Created Jobs are assigned with instructor/Assessor IcAR Automation Instructor 1</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:26 155 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[text()='No (assign anyway)']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:26 224 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[text()='No (assign anyway)']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:29 642 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[text()='Save & Dispatch']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Assigned assessor for scheduled job </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:32 881 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:32 881 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:38 129 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:38 130 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-message">&emsp;Close the tab</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:48 610 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 5 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:48 611 - <b>5</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:48 811 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:48 811 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:48 889 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //div[contains(@class,'appLauncher ')]//button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:48 966 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //div[contains(@class,'appLauncher ')]//button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:49 316 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //input[@placeholder='Search apps and items...']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:49 380 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //input[@placeholder='Search apps and items...']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:52 832 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //lightning-formatted-rich-text/span/p/b[text()='Session Scheduling Console']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:55 874 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //lightning-formatted-rich-text/span/p/b[text()='Session Scheduling Console']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:56 222 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:13:56 223 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:01 454 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 5 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:01 454 - <b>5</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:03 528 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//input[@type='text'])[4]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:03 591 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//input[@type='text'])[4]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:03 661 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//input[@type='text'])[4]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:06 751 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//input[@type='text'])[4]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:07 275 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:07 276 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:27 671 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 20 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:27 671 - <b>20</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;Total no of frames 1</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:27 806 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //span[@class='slds-checkbox_faux']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:31 904 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //span[@class='slds-checkbox_faux']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:34 006 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //div[text()='Dispatched']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:47 224 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:47 224 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:47 428 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:14:47 428 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:10 875 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 20 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:10 875 - <b>20</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;Total no of frames 1</div><br/>
+<div class="test-message">&emsp;fetched job list:[JOB-97994]</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:22 292 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> css selector: button[class*='search-button']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:24 598 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 2 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:24 598 - <b>2</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:27 686 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> css selector: button[class*='search-button']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:28 008 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/n/session_scheduling_console</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:28 008 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:41 641 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 4 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:41 641 - <b>4</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;Search for the job id: JOB-97994</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:52 119 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:52 120 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:52 145 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/view</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:15:52 145 - Page Load Wait </small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:05 027 - Unable to find a element after 9 sec ==> Proxy element for: AjaxElementLocator 'By.xpath: //div[contains(@id,'brandBand_')]/div/div/div[2]//table/tbody/tr/th/span/a|//span[@class='slds-grid slds-grid_align-spread']/div/lightning-primitive-custom-cell/force-lookup/div/a'</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:05 357 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/view</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:05 357 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:20 530 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 15 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:20 530 - <b>15</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:20 773 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/view</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:20 773 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:22 861 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a[text()='Related']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:22 913 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //a[text()='Related']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:23 562 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/view</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:23 563 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:44 027 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 20 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:44 027 - <b>20</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:44 599 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/view</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:16:44 599 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:04 959 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 20 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:04 959 - <b>20</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:07 075 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //h2/a/span[@title='Job Allocations']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:08 159 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/related/sked__job_allocations__r/view?ws=%2flightning%2fr%2fsked__job__c%2fa2mvc000000kcyxyay%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:08 159 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:26 485 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 18 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:26 485 - <b>18</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:27 075 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/related/sked__job_allocations__r/view?ws=%2flightning%2fr%2fsked__job__c%2fa2mvc000000kcyxyay%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:27 076 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:29 188 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //h1[contains(text(),'Job Allocations')]//following::div[@class="slds-col slds-no-space display-wrapper"]//table//tbody//tr//td[10]//span//div//lightning-primitive-custom-cell//lst-list-view-row-level-action//lightning-button-menu//button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:29 870 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/related/sked__job_allocations__r/view?ws=%2flightning%2fr%2fsked__job__c%2fa2mvc000000kcyxyay%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:29 870 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:34 038 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 4 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:34 038 - <b>4</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:34 638 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/related/sked__job_allocations__r/view?ws=%2flightning%2fr%2fsked__job__c%2fa2mvc000000kcyxyay%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:34 638 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:34 692 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //li[@class='uiMenuItem']/a/div[@title='Edit']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:34 774 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //li[@class='uiMenuItem']/a/div[@title='Edit']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:35 691 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/related/sked__job_allocations__r/view?ws=%2flightning%2fr%2fsked__job__c%2fa2mvc000000kcyxyay%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:35 691 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:54 031 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 18 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:54 031 - <b>18</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:54 660 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/related/sked__job_allocations__r/view?ws=%2flightning%2fr%2fsked__job__c%2fa2mvc000000kcyxyay%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:17:54 660 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:18:12 925 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 18 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:18:12 925 - <b>18</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:18:13 586 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/related/sked__job_allocations__r/view?ws=%2flightning%2fr%2fsked__job__c%2fa2mvc000000kcyxyay%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:18:13 586 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:18:22 723 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: (//input[@class='slds-input slds-combobox__input'])[8] | //label[text()='Status']//following-sibling::div/lightning-base-combobox/div/div/div/button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:18:27 929 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //span[text()='Confirmed']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:18:40 178 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (d669b0bfbf52c9d4b6929226fd82904e)] -> xpath: //button[text()='Save']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:18:40 992 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/sked__job__c/a2mvc000000kcyxyay/related/sked__job_allocations__r/view?ws=%2flightning%2fr%2fsked__job__c%2fa2mvc000000kcyxyay%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:18:40 992 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:19:01 409 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@4236704e (tried for 20 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 04 Oct 18:19:01 409 - <b>20</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;10. Job status is changed to confirmed from dispatched</div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>1190</td>
+<td>B2Btestscripts.B2B_TrainingManger@11d8ae8b</td></tr>
+</table><p>
+</body>
+</html>

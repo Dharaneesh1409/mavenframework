@@ -1,0 +1,9 @@
+{
+	"pageName": "LandingPage",
+	"pageObjects": [
+		{
+			"elementName": "lblZelleSettings",
+			"object": "css|p.z-text-base.z-basecolor.pt-3.pb-3"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"pageName": "OTPPage",
+	"pageObjects": [
+		{
+			"elementName": "inpOTP",
+			"object": "css|input.partitioned-input"
+		},
+		{
+			"elementName": "btnVerify",
+			"object": "css|button.z-btn-wrapper.btn-primary"
+		}
+	]
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="B2Btestscripts.B2B_Student">
+        <methods>
+          <include name="ICar_B2B_TC015"/>
+          <include name="ICar_B2B_TC032"/>
+          <include name="ICar_B2B_TC030"/>
+          <include name="ICar_B2B_TC031"/>
+          <include name="ICar_B2B_TC025"/>
+          <include name="ICar_B2B_TC023"/>
+          <include name="ICar_B2B_TC024"/>
+          <include name="ICar_B2B_TC022"/>
+          <include name="ICar_B2B_TC027"/>
+          <include name="ICar_B2B_TC028"/>
+          <include name="ICar_B2B_TC062"/>
+          <include name="ICar_B2B_TC061"/>
+          <include name="ICar_B2B_TC048"/>
+          <include name="ICar_B2B_TC004"/>
+          <include name="ICar_B2B_TC021"/>
+          <include name="ICar_B2B_TC063"/>
+          <include name="ICar_B2B_TC064"/>
+          <include name="ICar_B2B_TC020"/>
+          <include name="ICar_B2B_TC014"/>
+          <include name="ICar_B2B_TC012"/>
+          <include name="ICar_B2B_TC013"/>
+          <include name="init"/>
+          <include name="ICar_B2B_TC018"/>
+          <include name="ICar_B2B_TC011"/>
+          <include name="ICar_B2B_TC016"/>
+          <include name="ICar_B2B_TC017"/>
+          <include name="ICar_B2B_TC019"/>
+          <include name="ICar_B2B_TC051"/>
+          <include name="ICar_B2B_TC050"/>
+          <include name="ICar_B2B_TC037"/>
+          <include name="ICar_B2B_TC054"/>
+          <include name="ICar_B2B_TC010"/>
+          <include name="ICar_B2B_TC052"/>
+          <include name="ICar_B2B_TC053"/>
+          <include name="ICar_B2B_TC003"/>
+          <include name="ICar_B2B_TC047"/>
+          <include name="ICar_B2B_TC001"/>
+          <include name="ICar_B2B_TC045"/>
+          <include name="ICar_B2B_TC046"/>
+          <include name="ICar_B2B_TC007"/>
+          <include name="ICar_B2B_TC044"/>
+          <include name="ICar_B2B_TC049"/>
+          <include name="ICar_B2B_TC005"/>
+          <include name="ICar_B2B_TC006"/>
+          <include name="ICar_B2B_TC009"/>
+          <include name="ICar_B2B_TC008"/>
+          <include name="ICar_B2B_TC040"/>
+          <include name="ICar_B2B_TC026"/>
+          <include name="ICar_B2B_TC043"/>
+          <include name="ICar_B2B_TC041"/>
+          <include name="ICar_B2B_TC042"/>
+          <include name="ICar_B2B_TC036"/>
+          <include name="ICar_B2B_TC034"/>
+          <include name="ICar_B2B_TC033"/>
+          <include name="ICar_B2B_TC038"/>
+          <include name="ICar_B2B_TC039"/>
+        </methods>
+      </class> <!-- B2Btestscripts.B2B_Student -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

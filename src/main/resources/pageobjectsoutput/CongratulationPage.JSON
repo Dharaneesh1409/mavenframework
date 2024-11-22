@@ -1,0 +1,21 @@
+{
+	"pageName": "CongratulationPage",
+	"pageObjects": [
+		{
+			"elementName": "btnDecline",
+			"object": "css|button.z-btn-wrapper.z-btn.danger.mb-2"
+		},
+		{
+			"elementName": "btnSendMoney",
+			"object": "css|button.z-btn-wrapper.z-btn.z-trans-primary.mb-2"
+		},
+		{
+			"elementName": "btnSendOrRequestMoney",
+			"object": "css|button.z-btn-wrapper.btn-primary"
+		},
+		{
+			"elementName": "lnkAddANewMobileNumberOrEmail",
+			"object": "css|a[href='/token-enrollment']"
+		}
+	]
+}

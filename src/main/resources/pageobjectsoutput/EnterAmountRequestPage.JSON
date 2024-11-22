@@ -1,0 +1,9 @@
+{
+	"pageName": "EnterAmountRequestPage",
+	"pageObjects": [
+		{
+			"elementName": "inpEnterAmount",
+			"object": "id|txt"
+		}
+	]
+}

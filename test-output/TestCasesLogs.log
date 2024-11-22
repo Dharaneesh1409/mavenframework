@@ -1,0 +1,30 @@
+30-Oct-2024 10:53:17:824 INFO  [TestNG-PoolService-0]  
+30-Oct-2024 10:53:17:828 INFO  [TestNG-PoolService-0] ****             View link             ***** 
+30-Oct-2024 10:53:17:828 INFO  [TestNG-PoolService-0]  
+30-Oct-2024 10:53:17:989 FATAL [TestNG-PoolService-0] null value in entry: url=null 
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:43)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:81)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:126)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at ICar.Pages.AcademyLoginPage.load(AcademyLoginPage.java:75)
+	at org.openqa.selenium.support.ui.LoadableComponent.get(LoadableComponent.java:49)
+	at AccessAcademySite.Tal_206.TAL_206_01(Tal_206.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+30-Oct-2024 10:53:17:993 INFO  [TestNG-PoolService-0] ****             -E---N---D-             ***** 

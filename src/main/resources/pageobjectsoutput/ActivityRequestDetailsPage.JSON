@@ -1,0 +1,9 @@
+{
+	"pageName": "ActivityRequestDetailsPage",
+	"pageObjects": [
+		{
+			"elementName": "lblRequest",
+			"object": "css|span.terms-text.d-flex.justify-center"
+		}
+	]
+}

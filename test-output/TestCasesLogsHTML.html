@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Oct 30 10:53:03 IST 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="TestNG-PoolService-0 thread">TestNG-PoolService-0</td>
+<td title="Level">INFO</td>
+<td title="TestNG-PoolService-0 category">TestNG-PoolService-0</td>
+<td>Log.java:259</td>
+<td title="Message"></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td title="TestNG-PoolService-0 thread">TestNG-PoolService-0</td>
+<td title="Level">INFO</td>
+<td title="TestNG-PoolService-0 category">TestNG-PoolService-0</td>
+<td>Tal_206.java:81</td>
+<td title="Message">****             View link             *****</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td title="TestNG-PoolService-0 thread">TestNG-PoolService-0</td>
+<td title="Level">INFO</td>
+<td title="TestNG-PoolService-0 category">TestNG-PoolService-0</td>
+<td>Log.java:261</td>
+<td title="Message"></td>
+</tr>
+
+<tr>
+<td>165</td>
+<td title="TestNG-PoolService-0 thread">TestNG-PoolService-0</td>
+<td title="Level"><font color="#993300"><strong>FATAL</strong></font></td>
+<td title="TestNG-PoolService-0 category">TestNG-PoolService-0</td>
+<td>Tal_206.java:112</td>
+<td title="Message">null value in entry: url=null</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">java.lang.NullPointerException: null value in entry: url=null
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:81)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:126)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at ICar.Pages.AcademyLoginPage.load(AcademyLoginPage.java:75)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.LoadableComponent.get(LoadableComponent.java:49)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at AccessAcademySite.Tal_206.TAL_206_01(Tal_206.java:85)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.Thread.run(Thread.java:832)
+</td></tr>
+
+<tr>
+<td>169</td>
+<td title="TestNG-PoolService-0 thread">TestNG-PoolService-0</td>
+<td title="Level">INFO</td>
+<td title="TestNG-PoolService-0 category">TestNG-PoolService-0</td>
+<td>Log.java:320</td>
+<td title="Message">****             -E---N---D-             *****</td>
+</tr>

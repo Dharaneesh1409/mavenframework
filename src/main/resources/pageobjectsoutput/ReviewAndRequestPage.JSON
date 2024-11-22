@@ -1,0 +1,13 @@
+{
+	"pageName": "ReviewAndRequestPage",
+	"pageObjects": [
+		{
+			"elementName": "lblReviewAndRequest",
+			"object": "css|span.terms-text.d-flex.justify-center"
+		},
+		{
+			"elementName": "btnRequest",
+			"object": "css|button.z-btn-wrapper.btn-primary"
+		}
+	]
+}

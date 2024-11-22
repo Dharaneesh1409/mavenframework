@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="I-Car Test Automation" parallel="tests"
+	thread-count="1" verbose="4">
+	<parameter name="deviceHost" value="localhost" />
+	<parameter name="devicePort" value="4444" />
+	<parameter name="browserName" value="chrome" />
+	<parameter name="AmazonwebSite" value="https://www.amazon.in/" />
+	
+	<parameter name="environment" value="stage" /> 
+	
+	<test name="amazontestscript">
+		<classes>
+			<class name="amazontestscript.Amazonpurchase">
+				<methods>
+					
+					 <include name="TC01"></include> 
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>

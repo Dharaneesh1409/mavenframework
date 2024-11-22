@@ -1,0 +1,13 @@
+{
+  "theme": "standard",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "I-CAR Test Automation Report",
+  "reportName": "AutomationTestResult",
+  "timeStampFormat": "MMM dd, yyyy HH:mm:ss a",
+  "js": "",
+  "css": ""
+}

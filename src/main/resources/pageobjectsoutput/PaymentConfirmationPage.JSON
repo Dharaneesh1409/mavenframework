@@ -1,0 +1,13 @@
+{
+	"pageName": "PaymentConfirmationPage",
+	"pageObjects": [
+		{
+			"elementName": "lblPaymentSent",
+			"object": "css|span.terms-text.d-flex.justify-center"
+		},
+		{
+			"elementName": "btnAllDone",
+			"object": "css|button.z-btn-wrapper.btn-primary"
+		}
+	]
+}

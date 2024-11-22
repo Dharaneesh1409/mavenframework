@@ -1,0 +1,17 @@
+{
+	"pageName": "TermsAndConditionPage",
+	"pageObjects": [
+		{
+			"elementName": "btnAcceptContinue",
+			"object": "css|button.z-btn-wrapper.btn-primary"
+		},
+		{
+			"elementName": "btnYesEnrollThis",
+			"object": "css|button.z-btn-wrapper.btn-primary.float-right.mb-3"
+		},
+		{
+			"elementName": "btnChooseAnotherOrAddNew",
+			"object": "css|button.z-btn-wrapper.float-left.btn-secondary"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"pageName": "ReviewAndSendPage",
+	"pageObjects": [
+		{
+			"elementName": "btnSend",
+			"object": "css|button.z-btn-wrapper.btn-primary"
+		}
+	]
+}

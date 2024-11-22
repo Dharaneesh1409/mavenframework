@@ -1,0 +1,161 @@
+<html>
+<head>
+<title>TestNG:  B2B_Student_Smoke</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>B2B_Student_Smoke</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 24 14:38:39 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>156 seconds (156203 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Smoketestscripts.Productiontestscrpits.ProdSmoke_B2B_TC027()'><b>ProdSmoke_B2B_TC027</b><br>Test class: Smoketestscripts.Productiontestscrpits<br>Test method: Verify 'Cases' Tab in App Launcher<br>Parameters: chrome<br/>
+<a href="#Output-1638546268" onClick='toggleBox("Output-1638546268", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1638546268" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1638546268">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:38:40 555 - TestCaseID:: ProdSmoke_B2B_TC027</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:38:42 823 - <b>2</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:38:54 964 - Page URL:: data:,</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:38:54 964 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify 'Cases' Tab in App Launcher</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:38:58 374 - Page URL:: https://i-car--staging.sandbox.my.salesforce.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:38:58 374 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Login' Page&emsp;<a href=".\ScreenShot\ProdSmoke_B2B_TC027_409760826983200.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Login page is launched.</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:38:58 703 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> id: username]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:38:58 787 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> id: username]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:38:59 679 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> id: password]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:38:59 906 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> id: Login]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:39:44 714 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@2ef7b0d4 (tried for 13 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:39:44 714 - <b>13</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:01 914 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@2ef7b0d4 (tried for 6 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:01 914 - <b>6</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:02 005 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> css selector: button[class*='search-button']]</small> </font> </div><br/>
+<div class="test-message">&emsp;2. Navigate to 'SalesForce Page'</div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Login' Page&emsp;<a href=".\ScreenShot\ProdSmoke_B2B_TC027_409824450966400.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;3. Enter the user credentials as : icaradminautomation1@i-car.com.staging</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:02 428 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/contact/0031i00000oedzsqaa/view</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:02 429 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:07 489 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:17 752 - Unable to find an element after 10 sec ==> [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:23 008 - Unable to find a element after 5 sec ==> [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> css selector: button[title*='Close']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:23 188 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/contact/0031i00000oedzsqaa/view</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:23 189 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:23 235 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:23 279 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:26 603 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/contact/0031i00000oedzsqaa/view</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:26 603 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:26 644 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:26 683 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:29 904 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/contact/0031i00000oedzsqaa/view</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:29 904 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:29 996 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:30 038 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:33 262 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/contact/0031i00000oedzsqaa/view</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:33 262 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:33 305 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:33 348 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:36 597 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/account/0011i00000uwg67qae/related/gchistories__r/view?ws=%2flightning%2fr%2faccount%2f0011i00000uwg67qae%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:36 598 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:36 642 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:36 683 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //button[contains(@title,'Close ')]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:40 684 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/contact/0038w00001rtdhtqab/related/enrollment_contact__r/view?ws=%2flightning%2fr%2faccount%2f0011i00000uwdbnqau%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:40 684 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:50 943 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@2ef7b0d4 (tried for 5 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:50 943 - <b>5</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:52 358 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/r/contact/0038w00001rtdhtqab/related/enrollment_contact__r/view?ws=%2flightning%2fr%2faccount%2f0011i00000uwdbnqau%2fview</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:52 358 - <b>1</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:52 452 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //div[contains(@class,'appLauncher ')]//button]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:52 562 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //div[contains(@class,'appLauncher ')]//button]</small> </font> </div><br/>
+<div class="test-message">&emsp;Clicked on App launcher icon</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:54 457 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //input[@placeholder='Search apps and items...']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:54 534 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //input[@placeholder='Search apps and items...']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:40:57 841 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //lightning-formatted-rich-text/span/p/b[text()='Cases']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:41:00 903 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //lightning-formatted-rich-text/span/p/b[text()='Cases']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:41:02 797 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/o/case/home</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:41:02 797 - <b>1</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:41:04 443 - Page URL:: https://i-car--staging.sandbox.lightning.force.com/lightning/o/case/list?filtername=__recent</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:41:04 443 - <b>1</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:41:14 878 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@2ef7b0d4 (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:41:14 878 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:41:14 939 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //span[@title='Case Number']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 24 Sep 14:41:14 998 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (16e9052e8f5645f7df4dbe5c998d0326)] -> xpath: //span[@title='Case Number']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully Cases Tab is verified&emsp;<a href=".\ScreenShot\ProdSmoke_B2B_TC027_409897443882700.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>152</td>
+<td>Smoketestscripts.Productiontestscrpits@19b89d4</td></tr>
+</table><p>
+</body>
+</html>

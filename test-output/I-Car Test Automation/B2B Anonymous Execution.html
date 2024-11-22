@@ -1,0 +1,607 @@
+<html>
+<head>
+<title>TestNG:  B2B Anonymous Execution</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>B2B Anonymous Execution</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 15 16:29:09 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>705 seconds (705826 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_new_TC001()'><b>ICar_B2B_new_TC001</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Verify the Subscription link is present or not<br>Parameters: chrome<br/>
+<a href="#Output-306791881" onClick='toggleBox("Output-306791881", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-306791881" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-306791881">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:20 124 - TestCaseID:: ICar_B2B_new_TC001</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:21 820 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify the Subscription link is present or not</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:29 270 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1e88bcbe1ab3e893319a59821fdfd07b)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:29 338 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1e88bcbe1ab3e893319a59821fdfd07b)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC001_1272444403758900.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-message">&emsp; 2: Click on the Educational Programs link</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:31 620 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1e88bcbe1ab3e893319a59821fdfd07b)] -> xpath: //button[@title='Expand Educational Programs']|//button[@title='Educational Programs']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:31 675 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1e88bcbe1ab3e893319a59821fdfd07b)] -> xpath: //button[@title='Expand Educational Programs']|//button[@title='Educational Programs']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:38 020 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 6 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:38 020 - <b>6</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:40 166 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1e88bcbe1ab3e893319a59821fdfd07b)] -> xpath: //a[@title='Subscriptions']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:40 241 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1e88bcbe1ab3e893319a59821fdfd07b)] -> xpath: //a[@title='Subscriptions']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:52 054 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 6 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:52 054 - <b>6</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:54 139 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1e88bcbe1ab3e893319a59821fdfd07b)] -> xpath: (//button[text()='Get Started'])[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:54 203 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1e88bcbe1ab3e893319a59821fdfd07b)] -> xpath: (//button[text()='Get Started'])[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:56 941 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1e88bcbe1ab3e893319a59821fdfd07b)] -> xpath: //h2[text()='Subscription']]</small> </font> </div><br/>
+<div class="test-message">&emsp;SubscriptionRenewal text is displayed</div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Advanced class search filters'&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC001_1272472084399900.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_TC010()'><b>ICar_B2B_TC010</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: verify Adding Online course to cart by finding the session<br>Parameters: chrome<br/>
+<a href="#Output-12429855" onClick='toggleBox("Output-12429855", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12429855" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12429855">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:40 156 - TestCaseID:: ICar_B2B_TC010</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:41 381 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">verify Adding live course to cart by finding the session</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:49 114 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (cc5acad3840d041a6c50258e55621da8)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:49 172 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (cc5acad3840d041a6c50258e55621da8)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC010_1272237168017600.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-message">&emsp; 2: Click on the advanced class search link</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:02 355 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (cc5acad3840d041a6c50258e55621da8)] -> xpath: //a[text()='Advanced Class Search ']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:16 661 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 9 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:16 661 - <b>9</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Advanced class search filters'&emsp;<a href=".\ScreenShot\ICar_B2B_TC010_1272251758145400.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp; 3: Enter the search criteria state and course type and click search</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:17 068 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (cc5acad3840d041a6c50258e55621da8)] -> css selector: div.slds-select_container select[name='courseType']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:19 454 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (cc5acad3840d041a6c50258e55621da8)] -> xpath: //button[text()='Search']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:28 884 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 9 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:28 884 - <b>9</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:29 485 - Page URL:: https://my.icarstage.com/s/session-search</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:29 486 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully displayed search results'&emsp;<a href=".\ScreenShot\ICar_B2B_TC010_1272264590406200.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:30 269 - Page URL:: https://my.icarstage.com/s/session-search</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:30 270 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:38 011 - Element is displayed:: [[[[ChromeDriver: chrome on WINDOWS (cc5acad3840d041a6c50258e55621da8)] -> css selector: tbody tr td[data-label*='Course Name']]] -> css selector: div>a]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:47 546 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 9 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:34:47 546 - <b>9</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;Add to cart is displayed</div><br/>
+<div class="test-message">&emsp;Successfully displayed course Add to cart button&emsp;<a href=".\ScreenShot\ICar_B2B_TC010_1272295667424400.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:04 880 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (cc5acad3840d041a6c50258e55621da8)] -> xpath: //button[text()='Add to Cart']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:22 516 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 15 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:22 517 - Spinner Load Wait</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully click on Add to cart button&emsp;<a href=".\ScreenShot\ICar_B2B_TC010_1272317582656400.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Successfully Course added in add to cart page</div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>101</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_TC003()'><b>ICar_B2B_TC003</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Reset Password Link <br>Parameters: chrome<br/>
+<a href="#Output-1255591135" onClick='toggleBox("Output-1255591135", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1255591135" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1255591135">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:04 743 - TestCaseID:: ICar_B2B_TC003</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:05 774 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify reset password</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:16 598 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (fbd50a322d7745baa904f7ada41fd3b3)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:16 672 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (fbd50a322d7745baa904f7ada41fd3b3)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC003_1272011738657700.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:17 055 - Page URL:: https://www.icarstage.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:17 055 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:17 102 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (fbd50a322d7745baa904f7ada41fd3b3)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:17 175 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (fbd50a322d7745baa904f7ada41fd3b3)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:35 172 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 15 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:35 172 - <b>15</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;2. Login page  should be successfully display</div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Login' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC003_1272030346862400.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;3. click on reset Password</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:35 650 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (fbd50a322d7745baa904f7ada41fd3b3)] -> id: lnk-resetpassword]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:48 367 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 12 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:48 367 - <b>12</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:48 422 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (fbd50a322d7745baa904f7ada41fd3b3)] -> id: resetemail]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully clicked on reset password link&emsp;<a href=".\ScreenShot\ICar_B2B_TC003_1272043488712200.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;4. Entering the email and click on reset button</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:48 651 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (fbd50a322d7745baa904f7ada41fd3b3)] -> id: resetemail]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:48 875 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (fbd50a322d7745baa904f7ada41fd3b3)] -> id: btn-reset]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:54 954 - Page URL:: https://i-car-qa2.auth0.com/login?state=hkfo2sb6wlblts00ce1aem9tbe12zlvwmlbezwxlzw5uu194rkfupwxvz2luo3rpznkgslfsr0xwrdlit2l1r0hyc3bpc0zgznzkv3vimepgsk2jy2lk2sbjt2feoe9rszqyufnlajnydwrsy2xyaghvqmrlympnuw&client=coad8oqk42pskj3xudrclxhhubdebjms&protocol=samlp</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:54 955 - Page Load Wait </small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:09 459 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 14 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:09 460 - <b>14</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:09 509 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (fbd50a322d7745baa904f7ada41fd3b3)] -> id: btn-login]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully reseted with the email  : Test@gmail.com&emsp;<a href=".\ScreenShot\ICar_B2B_TC003_1272064575266500.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>64</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_TC004()'><b>ICar_B2B_TC004</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Verify Search with keyword using search button<br>Parameters: chrome<br/>
+<a href="#Output-1285771496" onClick='toggleBox("Output-1285771496", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1285771496" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1285771496">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:10 188 - TestCaseID:: ICar_B2B_TC004</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:11 348 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify Search with keyword using search button</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:21 617 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (27d9bda8496406b94f5b3b6b5b0cd2ae)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:21 724 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (27d9bda8496406b94f5b3b6b5b0cd2ae)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC004_1272076789992300.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-message">&emsp;2. Enter course name in search feild Searched: ford</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:22 093 - Page URL:: https://www.icarstage.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:22 093 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:29 464 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 7 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:29 464 - <b>7</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:29 554 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (27d9bda8496406b94f5b3b6b5b0cd2ae)] -> xpath: //input[@class='slds-input searchInputCls']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:29 824 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (27d9bda8496406b94f5b3b6b5b0cd2ae)] -> xpath: //button[@title='Search']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:30 898 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:30 899 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:38 282 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 7 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:38 283 - <b>7</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;3. Verify the search result</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:38 328 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (27d9bda8496406b94f5b3b6b5b0cd2ae)] -> xpath: //table[@class='slds-table slds-table--cell-buffer']//tbody/tr]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:38 435 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:38 435 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-message">&emsp;Search result contains 'ford' in COURSE/LEARNING PLAN&emsp;<a href=".\ScreenShot\ICar_B2B_TC004_1272100145253300.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_TC027()'><b>ICar_B2B_TC027</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Verify price calculator button is enabled<br>Parameters: chrome<br/>
+<a href="#Output-1138132519" onClick='toggleBox("Output-1138132519", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1138132519" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1138132519">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:45 519 - TestCaseID:: ICar_B2B_TC027</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:46 599 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify price calculator button is enabled</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:53 985 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1bd3bdfb578ab4a4009bf9807af24e9f)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:54 048 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1bd3bdfb578ab4a4009bf9807af24e9f)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC027_1272409113552500.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:54 425 - Page URL:: https://www.icarstage.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:54 426 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:01 817 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 7 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:01 817 - <b>7</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:01 887 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1bd3bdfb578ab4a4009bf9807af24e9f)] -> xpath: //input[@class='slds-input searchInputCls']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:02 112 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1bd3bdfb578ab4a4009bf9807af24e9f)] -> xpath: //button[@title='Search']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:03 269 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=welding#gsc.tab=0&gsc.q=welding&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:03 269 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:10 613 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 7 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:10 613 - <b>7</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;2.CourseName 'Welding'is entered and clicked on search</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:13 732 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 3 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:13 732 - <b>3</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;2.Searched and selected 'Welding'from the table displayed</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:16 937 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (1bd3bdfb578ab4a4009bf9807af24e9f)] -> xpath: //a[text()='Use Price Calculator']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Price calculator button is displayed and enabled&emsp;<a href=".\ScreenShot\ICar_B2B_TC027_1272434148988500.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_TC002()'><b>ICar_B2B_TC002</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Verification of advanced search and its parameters as anonymous users<br>Parameters: chrome<br/>
+<a href="#Output-1097310164" onClick='toggleBox("Output-1097310164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1097310164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1097310164">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:10 223 - TestCaseID:: ICar_B2B_TC002</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:16 644 - <b>7</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verification of advanced search and its parameters as anonymous users</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:25 585 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:25 668 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC002_1271960741212300.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-message">&emsp; 2: Click on the advanced class search link</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:26 276 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> xpath: //a[text()='Advanced Class Search ']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:44 355 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 9 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:44 355 - <b>9</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Advanced class search filters'&emsp;<a href=".\ScreenShot\ICar_B2B_TC002_1271979454354000.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp; 3: Enter the search criteria state and course type and click search</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:44 766 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> css selector: div.slds-select_container select[name='courseType']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:47 081 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> xpath: //label[text()='City']/following-sibling::div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:47 155 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> xpath: //label[text()='City']/following-sibling::div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:47 465 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> xpath: //span[text()='State']//following::div[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:49 692 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> xpath: //label[text()='Zip Code']//following::input[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:49 759 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> xpath: //label[text()='Zip Code']//following::input[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:50 014 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> xpath: //span[text()='Role']//following::div[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:52 278 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> xpath: //span[text()='Pro Level']//following::div[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:29:54 520 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (29619fa482d774ed905d0acbc21252c1)] -> xpath: //button[text()='Search']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:03 604 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 9 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:03 605 - <b>9</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:03 785 - Page URL:: https://my.icarstage.com/s/session-search</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:30:03 786 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully displayed search results'&emsp;<a href=".\ScreenShot\ICar_B2B_TC002_1271998922598500.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_TC007()'><b>ICar_B2B_TC007</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Online course search in advance search<br>Parameters: chrome<br/>
+<a href="#Output-1861429568" onClick='toggleBox("Output-1861429568", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1861429568" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1861429568">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:57 898 - TestCaseID:: ICar_B2B_TC007</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:59 061 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Online course search in advance search</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:06 336 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:06 393 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC007_1272181459133300.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-message">&emsp;2. Click on the Advance search Link and entering the search criteria for Online Courses</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:06 608 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: //a[text()='Advanced Class Search ']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:23 182 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:23 182 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:23 233 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: //lightning-input[@class='slds-form-element']//label[contains(text(),'Address')]/../div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:23 278 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: //lightning-input[@class='slds-form-element']//label[contains(text(),'Address')]/../div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:23 411 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: //lightning-input[@class='slds-form-element']//label[contains(text(),'Address')]/../div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:23 558 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: //lightning-input[@class='slds-form-element']//label[contains(text(),'City')]/../div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:23 691 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: (//*[@class='slds-form-element'])/label/span[contains(text(),'State')]/../..//select]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:23 877 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: //lightning-input[@class='slds-form-element']//label[contains(text(),'Zip Code')]/../div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:23 990 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: (//*[@class='slds-form-element'])/label/span[contains(text(),'Role')]/../..//select]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:24 200 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: (//*[@class='slds-form-element'])/label/span[contains(text(),'Pro Level')]/../..//select]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:27 514 - Page URL:: https://my.icarstage.com/s/session-search</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:27 514 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:27 726 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: (//*[@class='slds-form-element__control slds-input-has-icon slds-input-has-icon_right']/input)[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:28 129 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: (//*[@class='slds-form-element__control slds-input-has-icon slds-input-has-icon_right']/input)[2]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:34 648 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 6 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:34 648 - <b>6</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;3. Click on the Advance Search button</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:33:34 738 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (05026437e204f4de37cfc26c95e09513)] -> xpath: (//button[@title='Search'])[2]]</small> </font> </div><br/>
+<div class="test-message">&emsp;4. Verify the search results</div><br/>
+<div class="test-message">&emsp;No records are found&emsp;<a href=".\ScreenShot\ICar_B2B_TC007_1272214330211400.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;No records found for the given search criteria&emsp;<a href=".\ScreenShot\ICar_B2B_TC007_1272214491433500.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>41</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_new_TC004()'><b>ICar_B2B_new_TC004</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Verify the ISKA link is present or not<br>Parameters: chrome<br/>
+<a href="#Output-1951656320" onClick='toggleBox("Output-1951656320", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1951656320" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1951656320">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:43 181 - TestCaseID:: ICar_B2B_new_TC004</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:44 493 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify the ISKA link is present or not</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:51 210 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9c60fd6a2b9fe4d03a6b32d5daefd80b)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:51 267 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9c60fd6a2b9fe4d03a6b32d5daefd80b)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC004_1272586332448300.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-message">&emsp; 2: Click on the Educational Programs link</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:00 925 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 9 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:00 925 - <b>9</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:03 220 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9c60fd6a2b9fe4d03a6b32d5daefd80b)] -> xpath: //span[text()='Educational Programs']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:13 414 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9c60fd6a2b9fe4d03a6b32d5daefd80b)] -> xpath: //div[@class='horizontal-groupDiv-1']/ul/li[3]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:13 682 - Page URL:: https://www.icarstage.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:13 682 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:24 616 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9c60fd6a2b9fe4d03a6b32d5daefd80b)] -> xpath: (//button[text()='Get Started'])[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:24 677 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9c60fd6a2b9fe4d03a6b32d5daefd80b)] -> xpath: (//button[text()='Get Started'])[1]]</small> </font> </div><br/>
+<div class="test-message">&emsp;Add to cart is displayed</div><br/>
+<div class="test-message">&emsp;Successfully displayed course Add to cart button&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC004_1272623273755600.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:32 598 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9c60fd6a2b9fe4d03a6b32d5daefd80b)] -> xpath: //button[text()='Add to Cart']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:54 054 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 15 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:54 054 - Spinner Load Wait</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully click on Add to cart button&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC004_1272649119531600.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:40:54 270 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9c60fd6a2b9fe4d03a6b32d5daefd80b)] -> id: btn-login]</small> </font> </div><br/>
+<div class="test-message">&emsp;Request option is displayed&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC004_1272649357369500.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_TC006()'><b>ICar_B2B_TC006</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Virtual course search in advance search<br>Parameters: chrome<br/>
+<a href="#Output-1314402318" onClick='toggleBox("Output-1314402318", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1314402318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1314402318">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:14 642 - TestCaseID:: ICar_B2B_TC006</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:15 984 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Virtual course search in advance search</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:22 929 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:23 023 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC006_1272138089429900.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-message">&emsp;2. Click on the Advance search Link and entering the search criteria for Virtual Courses</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:23 252 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: //a[text()='Advanced Class Search ']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:38 692 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 10 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:38 693 - <b>10</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:38 790 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: //lightning-input[@class='slds-form-element']//label[contains(text(),'Address')]/../div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:38 845 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: //lightning-input[@class='slds-form-element']//label[contains(text(),'Address')]/../div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:38 924 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: //lightning-input[@class='slds-form-element']//label[contains(text(),'Address')]/../div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:39 064 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: //lightning-input[@class='slds-form-element']//label[contains(text(),'City')]/../div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:39 229 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: (//*[@class='slds-form-element'])/label/span[contains(text(),'State')]/../..//select]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:39 504 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: //lightning-input[@class='slds-form-element']//label[contains(text(),'Zip Code')]/../div/input]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:39 676 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: (//*[@class='slds-form-element'])/label/span[contains(text(),'Role')]/../..//select]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:40 031 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: (//*[@class='slds-form-element'])/label/span[contains(text(),'Pro Level')]/../..//select]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:43 431 - Page URL:: https://my.icarstage.com/s/session-search</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:43 431 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:43 583 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: (//*[@class='slds-form-element__control slds-input-has-icon slds-input-has-icon_right']/input)[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:43 980 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: (//*[@class='slds-form-element__control slds-input-has-icon slds-input-has-icon_right']/input)[2]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:50 608 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 6 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:50 608 - <b>6</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;3. Click on the Advance Search button</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:50 730 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (867740b23da0926c9781f26d085fbef1)] -> xpath: (//button[@title='Search'])[2]]</small> </font> </div><br/>
+<div class="test-message">&emsp;4. Verify the search results</div><br/>
+<div class="test-message">&emsp;No records are found&emsp;<a href=".\ScreenShot\ICar_B2B_TC006_1272172179632800.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;No records found for the given search criteria&emsp;<a href=".\ScreenShot\ICar_B2B_TC006_1272172339438900.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>41</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_new_TC002()'><b>ICar_B2B_new_TC002</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Verify the ISKA link is present or not<br>Parameters: chrome<br/>
+<a href="#Output-2123522884" onClick='toggleBox("Output-2123522884", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2123522884" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2123522884">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:58 077 - TestCaseID:: ICar_B2B_new_TC002</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:37:59 163 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify the ISKA link is present or not</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:38:04 917 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (a7ff8553c9722aa24c26b9b2b70cb169)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:38:04 979 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (a7ff8553c9722aa24c26b9b2b70cb169)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC002_1272480045508200.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-message">&emsp; 2: Click on the Educational Programs link</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:38:14 553 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 9 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:38:14 553 - <b>9</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:38:16 673 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (a7ff8553c9722aa24c26b9b2b70cb169)] -> xpath: //span[text()='Educational Programs']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:38:26 838 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (a7ff8553c9722aa24c26b9b2b70cb169)] -> xpath: //div[@class='horizontal-groupDiv-1']/ul/li[3]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:38:27 112 - Page URL:: https://www.icarstage.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:38:27 112 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:38:37 112 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (a7ff8553c9722aa24c26b9b2b70cb169)] -> xpath: (//button[text()='Get Started'])[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:38:37 184 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (a7ff8553c9722aa24c26b9b2b70cb169)] -> xpath: (//button[text()='Get Started'])[1]]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:38:44 869 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (a7ff8553c9722aa24c26b9b2b70cb169)] -> xpath: //button[text()='Add to Cart']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:02 757 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 15 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:02 757 - Spinner Load Wait</small> </font> </div><br/>
+<div class="test-message">&emsp;Add to cart option is displayed&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC002_1272537822519400.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:02 961 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (a7ff8553c9722aa24c26b9b2b70cb169)] -> id: btn-login]</small> </font> </div><br/>
+<div class="test-message">&emsp;Request option is displayed&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC002_1272538046646000.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>64</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_new_TC003()'><b>ICar_B2B_new_TC003</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Verify  add to cart button for any course present or not<br>Parameters: chrome<br/>
+<a href="#Output-560149400" onClick='toggleBox("Output-560149400", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-560149400" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-560149400">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:03 648 - TestCaseID:: ICar_B2B_new_TC003</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:04 676 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify  add to cart button for any course present or not</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:10 538 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (e56425fe551d56c93c1be744f782dea0)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:10 594 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (e56425fe551d56c93c1be744f782dea0)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC003_1272545659824300.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-message">&emsp;2. Enter course name in search feild Searched: MIG Brazing Hands-On Skills Development</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:10 956 - Page URL:: https://www.icarstage.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:10 956 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:18 204 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 7 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:18 204 - <b>7</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:18 313 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (e56425fe551d56c93c1be744f782dea0)] -> xpath: //input[@class='slds-input searchInputCls']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:18 640 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (e56425fe551d56c93c1be744f782dea0)] -> xpath: //button[@title='Search']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:19 669 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=mig%20brazing%20hands-on%20skills%20development#gsc.tab=0&gsc.q=mig%20brazing%20hands-on%20skills%20development&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:19 669 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:27 027 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 7 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:27 027 - <b>7</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;3. Verify the search result</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:27 057 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (e56425fe551d56c93c1be744f782dea0)] -> xpath: //table[@class='slds-table slds-table--cell-buffer']//tbody/tr]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:27 108 - Element is displayed:: [[[[ChromeDriver: chrome on WINDOWS (e56425fe551d56c93c1be744f782dea0)] -> xpath: //table[@class='slds-table slds-table--cell-buffer']//tbody/tr]] -> xpath: td[1]//a]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully clicked the given course&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC003_1272563740358900.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:29 478 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (e56425fe551d56c93c1be744f782dea0)] -> xpath: //a[text()='Use Price Calculator']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Price calculator button is displayed and enabled&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC003_1272566587329400.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:33 817 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (e56425fe551d56c93c1be744f782dea0)] -> xpath: //h2[text()='Make Request']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:38 909 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (e56425fe551d56c93c1be744f782dea0)] -> xpath: //h2[text()='Make Request']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Request option is displayed&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC003_1272577261884100.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:39:42 455 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (e56425fe551d56c93c1be744f782dea0)] -> id: btn-login]</small> </font> </div><br/>
+<div class="test-message">&emsp;Request option is displayed&emsp;<a href=".\ScreenShot\ICar_B2B_new_TC003_1272577541058400.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_TC013()'><b>ICar_B2B_TC013</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Verify sorting of searched courses searched with keyword<br>Parameters: chrome<br/>
+<a href="#Output-1690709915" onClick='toggleBox("Output-1690709915", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1690709915" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1690709915">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:23 126 - TestCaseID:: ICar_B2B_TC013</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:24 280 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify sorting of searched courses searched with keyword</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:31 640 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9f58eab2d653ba8d3d2a9203f27b3e83)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:31 705 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9f58eab2d653ba8d3d2a9203f27b3e83)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC013_1272326770908100.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-message">&emsp;2. Enter the search keyword</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:32 266 - Page URL:: https://www.icarstage.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:32 267 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:39 549 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 7 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:39 549 - <b>7</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:39 617 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9f58eab2d653ba8d3d2a9203f27b3e83)] -> xpath: //input[@class='slds-input searchInputCls']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:39 868 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (9f58eab2d653ba8d3d2a9203f27b3e83)] -> xpath: //button[@title='Search']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:40 698 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:40 698 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:48 035 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 7 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:48 035 - <b>7</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;3. Click on the search button</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:48 144 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:48 144 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-message">&emsp;Search result contains 'ford' in COURSE/LEARNING PLAN&emsp;<a href=".\ScreenShot\ICar_B2B_TC013_1272349824727900.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;5. Perform sorting in search result</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:55 024 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:35:55 024 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:04 991 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:04 991 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:05 144 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:05 144 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:05 253 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:05 253 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully Sorted the 'Product' in search result&emsp;<a href=".\ScreenShot\ICar_B2B_TC013_1272366795006600.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:11 995 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:11 995 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:21 559 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:21 559 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:21 738 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:21 738 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:21 834 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:21 834 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully Sorted the 'Price lowest to highest' in search result&emsp;<a href=".\ScreenShot\ICar_B2B_TC013_1272383343826900.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:28 537 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:28 537 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:38 110 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:38 110 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:38 267 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:38 267 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:38 367 - Page URL:: https://www.icarstage.com/custom-search-results?searchtext=ford#gsc.tab=0&gsc.q=ford&gsc.page=1</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:36:38 367 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully Sorted the 'Price highest to lowest' in search result&emsp;<a href=".\ScreenShot\ICar_B2B_TC013_1272399901809300.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Successfully Sorted the 'Type' in search result&emsp;<a href=".\ScreenShot\ICar_B2B_TC013_1272400066821400.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>81</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+<tr>
+<td title='B2Btestscripts.B2B_Anonymous.ICar_B2B_TC005()'><b>ICar_B2B_TC005</b><br>Test class: B2Btestscripts.B2B_Anonymous<br>Test method: Search without course type in advance search<br>Parameters: chrome<br/>
+<a href="#Output-1987174318" onClick='toggleBox("Output-1987174318", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1987174318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1987174318">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:45 987 - TestCaseID:: ICar_B2B_TC005</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:47 191 - <b>1</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Search without course type in advance search</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:53 224 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (0a833bbc08c509ef7f023cb6e5efac25)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:53 298 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (0a833bbc08c509ef7f023cb6e5efac25)] -> xpath: //a/img[@alt='Login Image']|//button[@id='btn-login']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to 'Home' Page&emsp;<a href=".\ScreenShot\ICar_B2B_TC005_1272108364237900.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1. Home page is launched.</div><br/>
+<div class="test-message">&emsp; 2: Click on the advanced class search link</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:31:53 598 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (0a833bbc08c509ef7f023cb6e5efac25)] -> xpath: //a[text()='Advanced Class Search ']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:12 517 - Catched spinner load exception due to Expected condition failed: waiting for ICar.support.WaitUtils$4@73f37e6d (tried for 9 second(s) with 500 milliseconds interval)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:12 518 - <b>9</b> - Spinner Load Wait: (Sync) - ICar.support.WaitUtils.waitForSpinner(WaitUtils.java:225)</small> </font> </div><br/>
+<div class="test-message">&emsp;3. Click on the Advance Search button</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:12 597 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (0a833bbc08c509ef7f023cb6e5efac25)] -> xpath: (//button[@title='Search'])[2]]</small> </font> </div><br/>
+<div class="test-message">&emsp;4. Verifying the error message</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Oct 16:32:13 861 - Element is displayed:: [[ChromeDriver: chrome on WINDOWS (0a833bbc08c509ef7f023cb6e5efac25)] -> xpath: //span[@class='toastMessage forceActionsText']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Search result contains 'Please, complete required fields&emsp;<a href=".\ScreenShot\ICar_B2B_TC005_1272128956887200.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>B2Btestscripts.B2B_Anonymous@56dc1551</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+	"pageName": "ActivitySendPage",
+	"pageObjects": [
+		{
+			"elementName": "btnPayment",
+			"object": "css|button.tablinks.active"
+		}
+	]
+}

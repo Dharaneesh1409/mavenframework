@@ -1,0 +1,9 @@
+{
+	"pageName": "ActivityPaymentDetailsPage",
+	"pageObjects": [
+		{
+			"elementName": "btnCancel",
+			"object": "css|button.z-btn-wrapper.btn-primary.mb-1"
+		}
+	]
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 22 Nov 12:35:17 261 - TestCaseID:: TC01</small> </font> </div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 22 Nov 12:35:21 286 - <b>4</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div>]]>
+    </line>
+    <line>
+      <![CDATA[&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify the login</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;]]>
+    </line>
+    <line>
+      <![CDATA[&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-22T12:35:15 IST" name="I-Car Test Automation" finished-at="2024-11-22T12:35:22 IST" duration-ms="6999">
+    <groups>
+    </groups>
+    <test started-at="2024-11-22T12:35:15 IST" name="amazontestscript" finished-at="2024-11-22T12:35:22 IST" duration-ms="6999">
+      <class name="amazontestscript.Amazonpurchase">
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:amazontestscript.Amazonpurchase@6b0d80ed]" started-at="2024-11-22T12:35:16 IST" name="init" finished-at="2024-11-22T12:35:16 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@30c8681]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC01(java.lang.String)[pri:0, instance:amazontestscript.Amazonpurchase@6b0d80ed]" started-at="2024-11-22T12:35:21 IST" name="TC01" description="Verify the Home page" data-provider="parallelTestDataProvider" finished-at="2024-11-22T12:35:22 IST" duration-ms="1698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 22 Nov 12:35:17 261 - TestCaseID:: TC01</small> </font> </div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 22 Nov 12:35:21 286 - <b>4</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div>]]>
+            </line>
+            <line>
+              <![CDATA[&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify the login</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;]]>
+            </line>
+            <line>
+              <![CDATA[&emsp;<div class="test-title"> <strong><font size = "3" color = "#0000FF">---Test Execution Ends---</font> </strong> </div>&emsp;]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+      </class> <!-- amazontestscript.Amazonpurchase -->
+    </test> <!-- amazontestscript -->
+  </suite> <!-- I-Car Test Automation -->
+</testng-results>

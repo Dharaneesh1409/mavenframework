@@ -1,0 +1,17 @@
+{
+	"pageName": "GetStartedPage",
+	"pageObjects": [
+		{
+			"elementName": "lnkTermsAndConditions",
+			"object": "css|#root div[class='container-fluid p-0'] div[class='row no-gutters'] div[class='col-12'] div[class='carousel-slider'] footer[class='d-flex justify-center'] div[class='footer-btn'] >div:nth-of-type(1) div[class='custom-control custom-checkbox'] p[class='m-0'] >a:nth-of-type(3)"
+		},
+		{
+			"elementName": "btnGetStarted",
+			"object": "css|button.z-btn-wrapper.btn-primary"
+		},
+		{
+			"elementName": "chkTermsAndConditions",
+			"object": "css|.checkmark"
+		}
+	]
+}

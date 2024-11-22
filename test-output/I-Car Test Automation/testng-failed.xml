@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [I-Car Test Automation]" guice-stage="DEVELOPMENT" verbose="4">
+  <parameter name="deviceHost" value="localhost"/>
+  <parameter name="devicePort" value="4444"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="AmazonwebSite" value="https://www.amazon.in/"/>
+  <test thread-count="1" parallel="tests" name="amazontestscript(failed)" verbose="4">
+    <classes>
+      <class name="amazontestscript.Amazonpurchase">
+        <methods>
+          <include name="TC01"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- amazontestscript.Amazonpurchase -->
+    </classes>
+  </test> <!-- amazontestscript(failed) -->
+</suite> <!-- Failed suite [I-Car Test Automation] -->

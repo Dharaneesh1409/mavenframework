@@ -1,0 +1,21 @@
+{
+	"pageName": "EnterAmounSendPage",
+	"pageObjects": [
+		{
+			"elementName": "lnkCancel",
+			"object": "css|a[href='/landing-screen']"
+		},
+		{
+			"elementName": "inpEnterAmount",
+			"object": "id|txt"
+		},
+		{
+			"elementName": "selSendTo",
+			"object": "css|select.z-select-grey.z-custom-arrow"
+		},
+		{
+			"elementName": "btnReview",
+			"object": "css|button.z-btn-wrapper.btn-primary"
+		}
+	]
+}

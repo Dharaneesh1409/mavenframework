@@ -1,0 +1,9 @@
+{
+	"pageName": "RequestConfirmationPage",
+	"pageObjects": [
+		{
+			"elementName": "lblRequestSent",
+			"object": "css|span.terms-text.d-flex.justify-center"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"pageName": "SelectAccountPage",
+	"pageObjects": [
+		{
+			"elementName": "lblCheckingAccount",
+			"object": "css|#root div[class='container-fluid'] div[class='row'] div[class='col-12'] >div:nth-of-type(2) div[class='row'] div[class='col-12'] div >div:nth-of-type(1) div[class='clearfix'] div[class='custom-control custom-checkbox'] label[class='container pl-0'] >span:nth-of-type(1)"
+		},
+		{
+			"elementName": "lblSavingsAccount",
+			"object": "css|#root div[class='container-fluid'] div[class='row'] div[class='col-12'] >div:nth-of-type(2) div[class='row'] div[class='col-12'] div >div:nth-of-type(2) div[class='clearfix'] div[class='custom-control custom-checkbox'] label[class='container pl-0'] >span:nth-of-type(1)"
+		},
+		{
+			"elementName": "btnContinue",
+			"object": "css|button.z-btn-wrapper.btn-primary"
+		}
+	]
+}

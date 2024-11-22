@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  AccessAcademySite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AccessAcademySite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 30 10:53:02 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15533 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AccessAcademySite.Tal_206.TAL_206_01()'><b>TAL_206_01</b><br>Test class: AccessAcademySite.Tal_206<br>Test method: Upon login, Student is placed on a “Progress” tab and sees this new page by default<br>Parameters: chrome<br/>
+<a href="#Output-651498289" onClick='toggleBox("Output-651498289", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-651498289" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-651498289">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 30 Oct 10:53:03 510 - TestCaseID:: TAL_206_01</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 30 Oct 10:53:17 676 - <b>14</b> - Driver::initialize::Get - ICar.support.WebDriverFactory.getDriver(WebDriverFactory.java:640)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 30 Oct 10:53:17 823 - Page URL:: data:,</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 30 Oct 10:53:17 823 - <b>0</b> - Page Load Wait: (Sync) - ICar.support.Utils.waitForPageLoad(Utils.java:109)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">View link</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<!--FAIL--><br/>
+<div class="test-result"><br><font color="red"><strong> null value in entry: url=null </strong></font> <a href=".\ScreenShot\TAL_206_01_1.png" target="_blank" >[ScreenShot]</a></div>&emsp;<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:43)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:81)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:126)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at ICar.Pages.AcademyLoginPage.load(AcademyLoginPage.java:75)
+	at org.openqa.selenium.support.ui.LoadableComponent.get(LoadableComponent.java:49)
+	at AccessAcademySite.Tal_206.TAL_206_01(Tal_206.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div><a href='#' onClick='toggleBox("stack-trace651498289", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace651498289'><pre>java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:43)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:81)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:126)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at ICar.Pages.AcademyLoginPage.load(AcademyLoginPage.java:75)
+	at org.openqa.selenium.support.ui.LoadableComponent.get(LoadableComponent.java:49)
+	at AccessAcademySite.Tal_206.TAL_206_01(Tal_206.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>AccessAcademySite.Tal_206@e25951c</td></tr>
+</table><p>
+</body>
+</html>
